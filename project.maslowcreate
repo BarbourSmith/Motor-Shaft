@@ -1,0 +1,171 @@
+{
+    "atomType": "Molecule",
+    "name": "Motor Shaft",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 788082,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.3074670571010249,
+            "y": 0.26436781609195403,
+            "uniqueID": 133817,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/593463/683987/839020/174641/311848/356538Circle"
+                },
+                {
+                    "name": "height",
+                    "ioValue": 28.5
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.10980966325036602,
+            "y": 0.42911877394636017,
+            "uniqueID": 568708,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 6.4
+                }
+            ]
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.41947291361639827,
+            "y": 0.4137931034482759,
+            "uniqueID": 547518,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/593463/683987/839020/174641/311848/558607Extrude"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 7.35
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 6.5
+                }
+            ]
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.6288433382137628,
+            "y": 0.19540229885057472,
+            "uniqueID": 296879,
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": "atoms/593463/683987/839020/174641/311848/704047Translate"
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": "atoms/593463/683987/839020/174641/311848/803131Extrude"
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.26281112737920936,
+            "y": 0.6053639846743295,
+            "uniqueID": 144446,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/593463/683987/839020/174641/311848/538885Rectangle"
+                },
+                {
+                    "name": "height",
+                    "ioValue": 31.5
+                }
+            ]
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.12884333821376281,
+            "y": 0.7969348659003832,
+            "uniqueID": 362611,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.48169838945827237,
+            "y": 0.6666666666666666,
+            "uniqueID": 843552,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/593463/683987/839020/174641/311848/621717Rectangle"
+                },
+                {
+                    "name": "height",
+                    "ioValue": 3.5
+                }
+            ]
+        },
+        {
+            "atomType": "Union",
+            "name": "Union",
+            "x": 0.719619326500732,
+            "y": 0.5172413793103449,
+            "uniqueID": 627555,
+            "ioValues": []
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.349194729136164,
+            "y": 0.9118773946360152,
+            "uniqueID": 993470,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.9807135969141755,
+            "y": 0.5,
+            "uniqueID": 374409,
+            "ioValues": []
+        }
+    ],
+    "allConnectors": [],
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1,
+    "circleSegmentSize": "0.7"
+}
