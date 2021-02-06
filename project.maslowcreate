@@ -63,7 +63,7 @@
                     "ioValue": 0
                 }
             ],
-            "currentEquation": "7.35-.05*N"
+            "currentEquation": "7.35+.05*N"
         },
         {
             "atomType": "Extrude",
